@@ -40,15 +40,15 @@ try:
     timeonlines = (st.text_input('Masukkan Timeonline Post', max_chars=6))
     timeonline = int(timeonlines)
 
-    sk1_classroom = float(st.text_input('Masukkan sk1 classroom', placeholder="Masukan nilai 0 - 10", max_chars=2))
+    sk1_classroom = float(st.text_input('Masukkan sk1 classroom', placeholder="Masukan nilai 0 - 10", max_chars=3))
 
-    sk2_classroom = float(st.text_input('Masukkan sk2 classroom', placeholder="Masukan nilai 0 - 10", max_chars=2))
+    sk2_classroom = float(st.text_input('Masukkan sk2 classroom', placeholder="Masukan nilai 0 - 10", max_chars=3))
 
-    sk3_classroom = float(st.text_input('Masukkan sk3 classroom', placeholder="Masukan nilai 0 - 10", max_chars=2))
+    sk3_classroom = float(st.text_input('Masukkan sk3 classroom', placeholder="Masukan nilai 0 - 10", max_chars=3))
 
-    sk4_classroom = float(st.text_input('Masukkan sk4 classroom', placeholder="Masukan nilai 0 - 10", max_chars=2))
+    sk4_classroom = float(st.text_input('Masukkan sk4 classroom', placeholder="Masukan nilai 0 - 10", max_chars=3))
 
-    sk5_classroom = float(st.text_input('Masukkan sk5 classroom', placeholder="Masukan nilai 0 - 10", max_chars=2 ))
+    sk5_classroom = float(st.text_input('Masukkan sk5 classroom', placeholder="Masukan nilai 0 - 10", max_chars=3))
 
     avg = (sk1_classroom + sk2_classroom + sk3_classroom + sk4_classroom + sk5_classroom) / 5
     st.markdown(f'<p class="big-font">Average sk1-sk5 : {avg}</p>', unsafe_allow_html=True)
